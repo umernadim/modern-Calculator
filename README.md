@@ -1,0 +1,1 @@
+A user-friendly and interactive web application to perform basic arithmetic operations. Built with HTML, CSS, and JavaScript, this calculator provides a clean and modern interface for easy calculations
