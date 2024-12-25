@@ -1,0 +1,100 @@
+body {
+    font-family: "Arial", sans-serif;
+    background: #333; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .calculator {
+    background: #444; 
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+  }
+
+  .display {
+    margin-bottom: 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    color: #fff; 
+  }
+
+  #result {
+    font-size: 1.2rem;
+    color: #fff !important;
+  }
+
+  .inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    gap: 0.5rem;
+  }
+
+  input {
+    padding: 0.5rem;
+    border: 1px solid #666;
+    border-radius: 5px;
+    width: 45%;
+    font-size: 1rem;
+    background: #b3b0b0;
+    color: #212121;
+  }
+
+  .operator {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+
+  .operator-btn {
+    flex: 1;
+    margin: 0 0.5rem;
+    padding: 0.5rem;
+    background: #e74c3c;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+
+  .operator-btn:hover {
+    background: #c0392b;
+    transform: scale(1.05);
+  }
+
+  .submit-btn {
+    padding: 0.7rem;
+    background: #3498db;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+
+  .submit-btn:hover {
+    background: #2980b9;
+    transform: scale(1.05);
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
